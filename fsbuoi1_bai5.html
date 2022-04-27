@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="bang5">Bài 5</h2>
+<h4>Booking Form</h4>
+<p>
+  Booking with us is simple and easy. Just fill in the booking form below and we will email your itinerary and <br>
+  payment details. Please don't forget you have to submit the payment for your reservation in 24 hours after <br>
+  submitting the booking form.
+  <hr>
+</p>
+<form action="">
+  <div>
+    <b>Name</b> <br> <input type="text" placeholder="First" required>
+    <input style="margin-left: 40px;" type="text" placeholder="Last" required>
+  </div>
+  <br>
+  <div style="display: flex;">
+    <div>
+      <b>Email</b> <br>
+      <input type="email"> <br>
+      <span style="font-size: 14px; color: gray;">We will send you a copy of <br> the completed booking form <br> to your e-mail address</span>
+    </div>
+    <div style="padding: 0 2px; margin-left: 40px;">
+      <b>Phone</b> <br> <input type="number" placeholder="### ### ####">
+    </div>
+  </div>
+  <br>
+  <div style="display:flex;">
+    <div>
+      <b>Departure Date</b> <br>
+      <input style="padding: 0 25px;" type="date" required>
+    </div>
+    <div style="padding: 0 2px; margin-left: 40px;">
+      <b>Departure Time</b> <br>
+      <input style="padding: 0 36px;" type="time">
+    </div>
+  </div>
+  <br>
+  <div style="display:flex;">
+    <div>
+      <b>Return Date</b> <br>
+      <input style="padding: 0 25px;" type="date" required>
+    </div>
+    <div style="padding: 0 2px; margin-left: 40px;">
+      <b>Return Time</b> <br>
+      <input style="padding: 0 36px;" type="time">
+    </div>
+  </div>
+  <br>
+  <div style="display:flex;">
+    <div>
+      <b>Number of guest/passengers</b> <br>
+      <select style="padding: 0 19px;" name="" id="">
+        <option value="10">*Please Seclect*</option>
+        <option value="11">Please Seclect 1</option>
+        <option value="12">Please Seclect 2</option>
+        <option value="13">Please Seclect 3</option>
+        <option value="14">Please Seclect 4</option>
+      </select>
+    </div>
+    <div style="margin-left: 15px;">
+      <b>Type of room/tilet</b> <br>
+      <input type="radio" name="ticket">Economy
+      <input type="radio" name="ticket">Premium
+      <br>
+      <input type="radio" name="ticket">Business
+      <input type="radio" name="ticket">Deluxe
+    </div>
+  </div>
+  <br>
+  <br>
+  <div>
+    <button style="color:#fff; padding: 10px; margin-left: 155px;;background-color: rgb(59, 56, 56);" type="submit">BOOK</button>
+  </div>
+</form>
+</body>
+</html>
