@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 3</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="bang3">Bài 3</h2>
+  <h3>Nested Tables</h3>
+  <table style="width:100%; height: 250px;">
+    <thead>
+      <tr>
+        <th>Header column 1</th>
+        <th>Header Column 2</th>
+        <th>Header Column 3</th>
+        <th>Header Column 4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Row 2 - Item 1</td>
+        <td>Row 2 - Item 2</td>
+        <th rowspan="4">
+          Row 2: Nested Table 1
+          <table style="width:95%;">
+            <tr>
+              <th>Row 1 Header</th>
+              <td>Item</td>
+            </tr>
+            <tr>
+              <th>Row 2 Header</th>
+              <td>Item</td>
+            </tr>
+            <tr>
+              <th>Row 2 Header</th>
+              <td>Item</td>
+            </tr>
+          </table>
+        </th>
+        <td>Row 2 - Item 4 <br>A second line</td>
+      </tr>
+      <tr>
+        <th rowspan="2">
+         Row 3: Nested Table 2
+         <table style="width:95%;">
+          <tr>
+            <th>Row 1 Header</th>
+            <td>Item</td>
+          </tr>
+          <tr>
+            <th>Row 1 Header</th>
+            <td>Item</td>
+          </tr>
+        </table>
+      </th>
+      <td rowspan="3">Row 3 - Item 2</td>
+      <td rowspan="4">Row 3- Item 3</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td>Row 4 - Item 1</td>
+      <td>Row 4 - Item 2</td>
+      <td>Row 4 - Item 3</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4">Row 5 - Last row of outer table</td>
+    </tr>
+  </tfoot>
+</table>
+</body>
+</html>
