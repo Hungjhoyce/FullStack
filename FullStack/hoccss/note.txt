@@ -1,0 +1,61 @@
+5 cách xử lý khi bị cache CSS, JS, Image
+
+1. Thêm ?ver=number vào sau tên file css
+
+2. Tắt Cache ở phần Network trong Dev Tool
+
+3. Xoá lịch sử trình duyệt
+
+4. Dùng trình duyệt ẩn danh (Ctrl + Shift + N)
+
+5. Bấm Ctrl + F5 khi load lại trang
+
+Cách đặt tên class - id
+
+- Cú pháp: 
++ Chấp nhận chữ cái (thường, hoa), số, gạch dưới, gạch ngang
++ Không được bắt đầu bằng số
++ Không chấp nhận ký tự đặc biệt
+
+- Lưu ý:
++ Đặt class có ý nghĩa (Hạn chế tối đa việc viết tắt)
++ Nên sử dụng Tiếng Anh
++ Nên sử dụng quy tắc BEM (Học sau)
+
+Phân biệt sự khác nhau giữa class với id
+
+1. Class:
+
+- Trong 1 thẻ html có thể có nhiều class
+- Độ ưu tiên của class thấp hơn id
+- Class sẽ tốt hơn cho việc kế thừa CSS (Tránh trùng lặp code CSS, dễ nâng cấp, bảo trì)
+
+2. ID:
+
+- Trong 1 thẻ html chỉ có 1 id
+- Độ ưu tiên của id class hơn class
+- ID sẽ hạn chế trong việc kế thừa CSS
+
+Khi nào dùng Class? Khi nào dùng Id?
+
+1. Với Class:
+
+- Được dùng phổ biến trong tất cả các trường hợp
+- Muốn có sự kế thừa
+
+2. Với Id:
+
+- Muốn độ ưu tiên cao hơn class
+- Hỗ trợ cho Javascript (DOM)
+- Sử dụng cho các thành phần ít có sự lặp lại (Thành phần cha)
+
+<header id="header">
+    <h1 class="title>Header</h1>
+</header>
+
+<main id="wrapper">
+</main>
+
+<footer id="footer">
+    <h1 class="title>Header</h1>
+</footer>

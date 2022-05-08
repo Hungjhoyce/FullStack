@@ -1,0 +1,3 @@
+Thành phần giả trong CSS:
+
+- Khi sử dụng before, after => Bắt buộc phải có thuộc tính content (Nếu không có, before và after không tồn tại)
