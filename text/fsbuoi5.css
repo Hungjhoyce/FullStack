@@ -1,0 +1,144 @@
+* body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Bài 1 */
+@font-face {
+    font-family: "Opensans";
+    src: url(../text/font/OpenSans-SemiBold.ttf);
+}
+
+.title-font {
+    font-family: Opensans;
+    font-size: 35px;
+}
+
+.content-font {
+    font-size: 22px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../text/font/Roboto-Regular.ttf);
+}
+
+table  tr  td {
+    color: grey;
+}
+
+.title-text:nth-child(1){
+    color: rgb(170, 216, 102);
+    font-size: 20px;
+}
+
+.title-font-text {
+    font-family: Roboto;
+}  /* End Bài 1*/
+
+/* Bài 2 */
+@font-face {
+    font-family: "Roboto-img";
+    src: url(../text/font/Roboto-Regular.ttf);
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.title-img {
+    background: rgb(185, 184, 184);
+    width: 220px;
+    display: flex;
+    font-family: Roboto-img;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.title-img > span {
+    padding: 150px 0 150px;
+}
+
+.content-img {
+    margin-left: 50px;
+}
+
+.content-img > p {
+    font-family: Roboto-img;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.content-img .content-title {
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.content-img > p:nth-child(5) {
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+#title-click {
+    background: #fff;
+    padding: 4px 18px;
+}
+
+/* End Bài 2 */
+
+/* Bài 3 */
+
+#text-head {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+.space {
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.table-text {
+    font-family: 'Inconsolata', monospace;
+}
+
+.text-opacity {
+    opacity: 0.7;
+}
+
+/* End Bài 3 */
+
+/* Bài 4 */
+
+.title-color {
+    background: rgb(129 153 203);
+    color: #fff;
+    padding: 15px 50px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100px;
+}
+
+.title-text-nth{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.text-color {
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 50px;
+    font-family: Roboto;
+    border-radius: 3px;
+    margin: 10px;
+    opacity: 0.8;
+}
