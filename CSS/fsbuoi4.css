@@ -1,0 +1,128 @@
+*body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Thành Phần Giả Trong CSS */
+.title {
+    color: yellow;
+}
+
+.title::before {
+    content: 'Hoàng ';
+    color: aqua;
+}
+
+.title::after {
+    content: ' Hưng';
+    color: red;
+}
+
+.content::first-letter {
+    font-size: 25px;
+    color: red;
+    font-style: italic;
+}
+
+.content::first-line {
+    color: royalblue;
+}
+
+.content::selection {
+    background-color: slategray;
+    color: salmon;
+}
+
+/* Lớp Giả Trong CSS */
+
+/* Hover */
+.btn-hover {
+    background: springgreen;
+    color: #000;
+    
+}
+
+.btn-hover:hover {
+    background-color: violet;
+    color: #fff;
+
+}
+
+/* active - focus */
+
+.item-active-focus:focus {
+    background: turquoise;
+}
+.item-active-focus:active {
+    background: #cada72;
+}
+
+
+
+/* Checked + first/last-child */
+
+.gender-checked label input:checked ~ span {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.job-checked p label input:checked ~ span {
+    color: red;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.menu-checked #menu-title,
+.menu-checked .primary-menu {
+    display: none;
+}
+
+.menu-checked .menu-btn {
+    background-color: yellowgreen;
+    padding: 3px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-checked input:checked ~ .primary-menu {
+    display: block;
+}
+
+.primary-menu ul li:first-child {
+    color: red;
+    font-weight: bold;
+}
+
+.primary-menu ul li:last-child {
+    color: blue;
+    font-weight: bold;
+}
+
+/* disabled */
+
+/* firts/last-of-type */
+
+.title-child li:first-of-type {
+    color: brown;
+}
+
+.title-child li:last-of-type {
+    color: cyan;
+}
+
+/* nth-child */
+
+.title-list .title-nth:nth-child(2n+1) {
+    color: darkorange;
+}
+
+.title-list .title-nth:nth-child(2n+2) {
+    color: deepskyblue;
+}
+
+.title-list .title-nth:nth-child(10) {
+    color: purple;
+}
