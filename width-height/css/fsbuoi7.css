@@ -1,0 +1,214 @@
+/* Bài 1 */
+
+#full {
+    width: 100%;
+    height: 600px;
+    background-color: #e0e0e0;
+    opacity: 0.8;
+}
+
+.top {
+    width: 100%;
+    height: 80px;
+}
+
+.top > h2 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.top > p {
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    margin-top: -30px;
+    line-height: 0;
+    color: blue;
+}
+
+.bottom-left {
+    width: 33.33333%;
+    /* height: 100%; */
+    /* background-color: blue; */
+    float: left;
+    
+}
+
+.bottom-center {
+    width: 33.33333%;
+    /* height: 100%; */
+    /* background-color: red; */
+    float: left;
+}
+
+.bottom-right {
+    width: 33.33333%;
+    /* height: 100%; */
+    /* background-color: black; */
+    float: left;
+}
+
+.bottom-left table tr .title-top,
+.bottom-center table tr .title-top,
+.bottom-right table tr .title-top {
+    padding-top: 0px;
+    padding-left: 30px;
+}
+
+.bottom-left table tr .title-bottom,
+.bottom-center table tr .title-bottom,
+.bottom-right table tr .title-bottom {
+    padding-top: 80px;
+    padding-left: 15px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: #646464;
+    opacity: 1;
+}
+
+
+.title-h {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(104, 231, 132);
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+}
+
+.title-name {
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* End Bài 1 */
+
+
+/* Bài 2 */
+#ex2-full {
+    width: 600px;
+    height: 650px;
+    background-color: #e0e0e0;
+    opacity: 0.8;
+    margin: 0 30%;
+}
+
+.ex2-fulll {
+    padding: 0 20px;
+}
+
+.ex2-title-h {
+    width: 70px;
+    height: 75px;
+    background-color: rgb(216, 131, 216);
+    border-radius: 5px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-right: 20px;
+    line-height: 1.4;
+}
+
+.ex2-title {
+    border-bottom: 2px dotted red;
+}
+
+
+
+.ex2-title-head {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    line-height: 2;
+}
+
+.ex2-title-text {
+    font-size: 14px;
+    font-family: sans-serif;
+    opacity: 0.5;
+}
+/* End Bài 2 */
+
+/* Bài 3 */
+
+.ex3-full {
+    text-align: center;
+    margin: 0 22%;
+}
+
+.ex3-full-top .ex3-text {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.ex3-full-top .ex3-text1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.ex3-full-bottom {
+    background-color: #dbdbdb;
+    width: 875px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.ex3-full-bottom form {
+    padding: 28px;
+}
+
+.ex3-full-bottom table tr td {
+    padding: 10px 20px;
+}
+
+.ex3-border {
+    box-shadow: rgb(0 41 102 / 10%) 0px 1px 3px;
+    border: none;
+    border-radius: 2px;
+}
+
+.ex3-input {
+    width: 360px;
+    height: 30px;
+    padding-left: 15px;
+}
+
+::placeholder {
+    color: #cfcfcf;
+}
+
+.ex3-select {
+    padding-left: 15px;
+    color: #cfcfcf;
+    font-weight: 500;
+    width: 380px;
+    height: 34px;
+}
+
+.ex3-full-bottom .content {
+    width: 800px;
+    height: 100px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.ex3-submit {
+    width: 800px;
+    height: 32px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
