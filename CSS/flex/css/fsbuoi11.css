@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html, body {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact {
+    width: 100%;
+    background-color: aqua;
+    height: 30px;
+}
+
+/* .contact > div {
+    width: 85%;
+    background-color: aquamarine;
+    height: 30px;
+    margin: 0 auto;
+} */
+
+.contact .contact-title {
+    background-color: #cfa267;
+    height: 100%;
+    padding-left: 120px;
+}
+
+.contact .contact-title p {
+    display: inline-flex;
+    padding: 7px 10px;
+    font-size: .7rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.contact .contact-login p:nth-child(1),
+.contact .contact-title p:nth-child(1) {
+    border-right: 1px solid #e0b781;
+}
+
+.contact .contact-title p:nth-child(1)::before {
+    content: '\f0e0';
+    display: block;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400;
+    margin: 0 5px 0 -15px;
+}
+
+.contact .contact-title p:nth-child(2)::before {
+    content: '\f095';
+    display: block;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    margin: 0 5px 0 -5px;
+}
+
+.contact .contact-login {
+    background-color: #cfa267;
+    height: 100%;
+    padding-left: 100px;
+}
+
+.contact .contact-login p {
+    display: inline-flex;
+    padding: 7px;
+}
+
+.contact .contact-login p button {
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .7rem;
+    color: #fff;
+    background-color: #cfa267;
+}
+
+.menu-nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: rgb(0 41 102 / 20%) 0px 1px 3px;
+}
+
+.menu-nav > div {
+    width: 90%;
+    background-color: #fff;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu-nav .menu-logo img{
+    padding: 12px;
+    position: relative;
+    left: 10px;
+    
+}
+
+.menu-nav > div > nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    position: relative;
+}
+
+.menu-nav > div > nav ul a {
+    padding: 28px 10px 26px 10px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 600;
+    position: relative;
+}
+
+.menu-nav > div > nav > ul > li:hover > a {
+    background-color: #cfcfcf;
+    color: #b87926;
+}
+
+.menu-nav > div > nav ul > li:nth-child(2),
+.menu-nav > div > nav ul > li:nth-child(3),
+.menu-nav > div > nav ul > li:nth-child(4),
+.menu-nav > div > nav ul > li:nth-child(5),
+.menu-nav > div > nav ul > li:nth-child(6) {
+    position: relative;
+}
+
+.menu-nav > div > nav ul > li:nth-child(2) ul,
+.menu-nav > div > nav ul > li:nth-child(3) ul,
+.menu-nav > div > nav ul > li:nth-child(4) ul,
+.menu-nav > div > nav ul > li:nth-child(5) ul,
+.menu-nav > div > nav ul > li:nth-child(6) ul {
+    background-color: #eee9e2;
+    width: 300px;
+    height: 415px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    font-size: .8rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 2px solid #cfa267;
+    display: none;
+}
+
+.menu-nav > div > nav ul > li:nth-child(3) ul {
+    height: 338px;
+}
+.menu-nav > div > nav ul > li:nth-child(4) ul {
+    height: 452px;
+    width: 270px;
+}
+.menu-nav > div > nav ul > li:nth-child(5) ul {
+    height: 74px;
+    width: 250px;
+}
+.menu-nav > div > nav ul > li:nth-child(6) ul {
+    width: 240px;
+    height: 338px;
+}
+
+.menu-nav > div > nav ul > li:nth-child(2) ul  li,
+.menu-nav > div > nav ul > li:nth-child(3) ul  li,
+.menu-nav > div > nav ul > li:nth-child(4) ul  li,
+.menu-nav > div > nav ul > li:nth-child(5) ul  li,
+.menu-nav > div > nav ul > li:nth-child(6) ul  li {
+    padding: 10px 2px;
+}
+
+.menu-nav > div > nav ul > li:nth-child(2) ul  li+li,
+.menu-nav > div > nav ul > li:nth-child(3) ul  li+li,
+.menu-nav > div > nav ul > li:nth-child(4) ul  li+li,
+.menu-nav > div > nav ul > li:nth-child(5) ul  li+li,
+.menu-nav > div > nav ul > li:nth-child(6) ul  li+li {
+    border-top: 1px solid #000;
+}
+
+.menu-nav > div > nav > ul > li:nth-child(2):hover ul,
+.menu-nav > div > nav > ul > li:nth-child(3):hover ul,
+.menu-nav > div > nav > ul > li:nth-child(4):hover ul,
+.menu-nav > div > nav > ul > li:nth-child(5):hover ul,
+.menu-nav > div > nav > ul > li:nth-child(6):hover ul {
+    display: block;
+    z-index: 999;
+}
+
+.menu-nav > div > nav > ul > li:nth-child(2):hover ul li:hover,
+.menu-nav > div > nav > ul > li:nth-child(3):hover ul li:hover,
+.menu-nav > div > nav > ul > li:nth-child(4):hover ul li:hover,
+.menu-nav > div > nav > ul > li:nth-child(5):hover ul li:hover,
+.menu-nav > div > nav > ul > li:nth-child(6):hover ul li:hover {
+    background-color: #cfcfcf;
+}
+
+.menu-nav > div > .menu-post > ul{
+    display: flex;
+}
+
+.menu-nav > div > .menu-post > ul li {
+    padding: 20px 10px;
+}
+
+.menu-nav > div > .menu-post > ul li p {
+    width: 30px;
+    height: 30px;
+    background-color: #ededed;
+    position: relative;
+    top: -4px;
+    border-radius: 50%;
+}
+
+.menu-nav > div > .menu-post > ul li p i {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+
+.menu-nav > div > .menu-post > ul li a {
+    background-color: #ef5350;
+    padding: 8px 20px 8px 35px;
+    position: relative;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: #fff;
+    font-weight: 600;
+    border-color: #ef5350;
+}
+
+.menu-nav > div > .menu-post > ul li a::before {
+    content: '\f304';
+    display: block;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+
+.contact .title-primary-header {
+    clear: both;
+    width: 100%;
+    height: 25px;
+    background-color: #f4f2f0;
+}
+
+.contact .title-primary-header ul {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #f4f2f0;
+}
+
+.contact .title-primary-header ul li a{
+    padding: 5px 7px;
+    font-size: .6rem;
+    text-transform: uppercase;
+    position: relative;
+    color: #cfa267;
+}
+
+.contact .title-primary-header ul li:nth-child(1) a::after,
+.contact .title-primary-header ul li:nth-child(2) a::after {
+    content: '/';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.contact .title-primary-header ul li a:hover {
+    color: #000;
+}
+
+.contact .title-slider {
+    background-image: url(https://picsum.photos/1560);
+    max-width: 100%;
+    height: 500px;
+}
+
+.contact .title-slider .title-slider-floating {
+    position: relative;
+    top: 135px;
+    left: 240px;
+    height: 218px;
+    width: 560px;
+    background-color: rgba(255, 240, 245, 0.473);
+    border-radius: 5px;
+}
+
+.contact .title-slider .title-slider-floating > p:nth-child(1) {
+    padding: 24px 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.contact .title-slider .title-slider-floating > p:nth-child(2) {
+    padding: 0 20px;
+    font-size: .8rem;
+}
+
+.contact .title-slider .title-slider-floating > p:nth-child(3) {
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+.contact .title-slider .title-slider-floating > p:nth-child(4) {
+    background-color: #ef5350;
+    width: 138px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    right: 40px;
+    bottom: -30px;
+}
+
+.contact .title-slider .title-slider-floating a {
+    color: #ef5350;
+}
+
+.contact .title-slider .title-slider-floating a:hover {
+    color: #cc4331;
+}
+
+.contact .title-search {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-shadow: rgb(0 41 102 / 20%) 0px 1px 3px;
+}
+
+.contact .title-search p:nth-child(1) {
+    padding: 10px;
+}
+
+.contact .title-search p~p {
+    border-left: 2px solid #ccc;
+}
+
+.contact .title-search input {
+    width: 700px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #cfcfcf;
+}
+
+.contact .title-search p:nth-child(1):before {
+    content: '\f002';
+    display: block;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 170px;
+    top: 20px;
+}
+
+::placeholder {
+    font-size: .8rem;
+    position: relative;
+    left: 50px;
+}
+
+.contact .title-search select {
+    width: 200px;
+    height: 60px;
+    border: none;
+    margin: 0 2px;
+}
+
+.contact .title-search p:nth-child(4) {
+    padding: 10px;
+}
+
+.contact .title-search button {
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #cfa267;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact .title-search button:hover {
+    background-color: #ce9244;
+    cursor: pointer;
+}
