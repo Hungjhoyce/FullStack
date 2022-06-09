@@ -129,91 +129,77 @@
     max-width: calc(100% / (12/12));
 }
 
-@media all and (max-width: 420px){
+@media all and (max-width: 709px){
     .col-s-1{
         flex-basis: calc(100% / (12/1));
         max-width: calc(100% / (12/1));
-        margin: 0 var(--column-space);
     }
     
     .col-s-2{
         flex-basis: calc(100% / (12/2));
         max-width: calc(100% / (12/2));
-        margin: 0 var(--column-space);
     }
     
     .col-s-3{
         flex-basis: calc(100% / (12/3));
         max-width: calc(100% / (12/3));
-        margin: 0 var(--column-space);
     }
     
     .col-s-4{
         flex-basis: calc(100% / (12/4));
         max-width: calc(100% / (12/4));
-        margin: 0 var(--column-space);
     }
     
     .col-s-5{
         flex-basis: calc(100% / (12/5));
         max-width: calc(100% / (12/5));
-        margin: 0 var(--column-space);
     }
     
     .col-s-6{
         flex-basis: calc(100% / (12/6));
         max-width: calc(100% / (12/6));
-        margin: 0 var(--column-space);
     }
     
     .col-s-7{
         flex-basis: calc(100% / (12/7));
         max-width: calc(100% / (12/7));
-        margin: 0 var(--column-space);
     }
     
     .col-s-8{
         flex-basis: calc(100% / (12/8));
         max-width: calc(100% / (12/8));
-        margin: 0 var(--column-space);
     }
     
     .col-s-9{
         flex-basis: calc(100% / (12/9));
         max-width: calc(100% / (12/9));
-        margin: 0 var(--column-space);
     }
     
     .col-s-10{
         flex-basis: calc(100% / (12/10));
         max-width: calc(100% / (12/10));
-        margin: 0 var(--column-space);
     }
     
-    .col-sm-11{
+    .col-s-11{
         flex-basis: calc(100% / (12/11));
         max-width: calc(100% / (12/11));
-        margin: 0 var(--column-space);
     }
     
     .col-s-12{
         flex-basis: calc(100% / (12/12));
         max-width: calc(100% / (12/12));
-        margin: 0 var(--column-space);
     }
 }
 
-@media all and (min-width: 421px){
+@media all and (min-width: 710px){
     .col-sm-1{
         flex-basis: calc(100% / (12/1));
         max-width: calc(100% / (12/1));
-        margin: 0 var(--column-space);
     }
     
     .col-sm-2{
         flex-basis: calc(100% / (12/2));
         max-width: calc(100% / (12/2));
-        margin: 0 var(--column-space);
     }
     
     .col-sm-3{

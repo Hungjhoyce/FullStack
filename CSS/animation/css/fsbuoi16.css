@@ -51,6 +51,8 @@ body{
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 10px 1px #cccccc8f;
+    /* width: 274.5px; 
+    height: 373.688px; */
 }
 
 .posts-box .post-item::before{
