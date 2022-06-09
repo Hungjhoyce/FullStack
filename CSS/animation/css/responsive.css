@@ -129,7 +129,7 @@
     max-width: calc(100% / (12/12));
 }
 
-@media all and (max-width: 320px){
+@media all and (max-width: 420px){
     .col-s-1{
         flex-basis: calc(100% / (12/1));
         max-width: calc(100% / (12/1));
@@ -203,7 +203,7 @@
     }
 }
 
-@media all and (min-width: 321px){
+@media all and (min-width: 421px){
     .col-sm-1{
         flex-basis: calc(100% / (12/1));
         max-width: calc(100% / (12/1));
