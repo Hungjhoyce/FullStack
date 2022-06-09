@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.block  {
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+    border: 1px solid green;
+    position: relative;
+    animation-iteration-count: 1000;
+}
+
+/* @keyframes move {
+    from{
+        left: 0;
+        top: 0;
+    }
+
+    20% {
+        left: calc(100% - 10px);
+        top: 0;
+    }
+
+    40% {
+        left: calc(100% - 10px);
+        top: 0;
+    }
+
+
+    60% {
+        left: calc(100% - 10px);
+        top: calc(100% - 10px);
+
+    }
+
+    80% {
+        left: 0;
+        top: calc(100% - 10px);
+    }
+
+    100% {
+        left: 0;
+        top: calc(100% - 10px);
+    }
+
+    to {
+        top: 0;
+        left: 0;
+    }
+} */
+
+.block p {
+    background-color: purple;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    /* top: calc(100% - 10px);
+    left: calc(100% - 10px); */
+    /* animation: move 3s infinite both; */
+}
